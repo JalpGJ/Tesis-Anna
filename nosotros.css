@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+}
+.nav-link {
+  color: black;
+}
+.nav-item {
+  text-align: center;
+}
+.nav__nosotros {
+  background-color: #ffe60d;
+}
+.main__banner {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./banner_nosotros\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.main__nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nosotros__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  height: 550px;
+}
+.card__man {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./man.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  padding-bottom: 15px;
+}
+.man__image {
+  width: 25px;
+  height: 25px;
+}
+.card__woman {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./woman.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  padding-bottom: 15px;
+}
+
+/* @media (min-width: 991px) {
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  .navbar {
+    height: 100px;
+  }
+  .container-fluid {
+    padding: 0 50px;
+  }
+  .nav-item {
+    width: 150px;
+  }
+  .nav__inicio {
+    border-radius: 25px;
+  }
+} */
