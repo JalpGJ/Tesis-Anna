@@ -139,6 +139,32 @@
     font-size: 50px;
   }
 }
+
+@media (min-width: 1280px) {
+  .main__content {
+    width: 100%;
+    flex-direction: row;
+    height: auto;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 150px;
+  }
+  .main__content--left {
+    width: 600px;
+    text-align: start;
+    align-items: flex-start;
+  }
+  .content--left__title {
+    font-size: 60px;
+  }
+  .main__content--right {
+    width: 400px;
+    height: 300px;
+    /* margin-top: 60px; */
+  }
+}
 @media (min-width: 1440px) {
   .main__content {
     width: 100%;
